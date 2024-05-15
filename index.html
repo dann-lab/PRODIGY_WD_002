@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        
+    }
+    .parent{
+        background-color: pink;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        padding: 16px;
+      display: grid;
+      place-items: center;
+    }
+    button{
+        background-color: dodgerblue;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div id="stopwatch">00:00:00</div>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
